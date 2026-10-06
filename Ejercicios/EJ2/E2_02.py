@@ -2,5 +2,7 @@ numero = int(input("Pon un número:"))
 
 if numero > 0:
     print("El número es positivo")
-elif:
+elif numero < 0:
     print("El numero es negativo")
+else:
+    print("El número es cero")
